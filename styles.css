@@ -8,10 +8,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.inputField {
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
 }
 
 .weatherContainer {
     border: 1px solid black;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timeField {
+    font-size: 15px;
 }
