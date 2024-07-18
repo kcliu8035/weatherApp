@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #06283D;
 }
 
 .inputField {
@@ -16,6 +17,16 @@ body {
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 30px;
+}
+
+.temp {
+    font-size: 20px;
+}
+
+.condition {
+    font-size: 25px;
+    transition: 0.6s ease-in;
+
 }
 
 .weatherContainer {
@@ -26,7 +37,26 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    color: black;
+    background: lightcyan;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 28px 32px;
+    transition: 0.6s ease-out;
 }
+
+.submitBTN {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.submitBTN:hover {
+    color: white;
+    background: #06283D;
+}
+
 
 .timeField {
     font-size: 15px;
